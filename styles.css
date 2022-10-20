@@ -1,0 +1,71 @@
+html, body, #my-service-root {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Qwigley', cursive;
+    font-size: 5rem;
+}
+
+p {
+    padding-top: 14px;
+}
+
+#my-service-root {
+    min-width: 352px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#brand-image {
+    background: url('./unsplash.jpg');
+    background-size: cover;
+}
+
+#content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FEBB57;
+}
+
+.promotion {
+    font-size: 5rem;
+}
+
+.button {
+    background: #161616;
+    color: #e9e9e9;
+    padding: 15px 102px;
+    margin: 45px 0 25px;
+    border-radius: 10px;
+}
+
+.link {
+    color: #161616;
+    text-decoration: underline;
+}
+
+.copy {
+    position: absolute;
+    bottom: 15px;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+@media screen and (max-width: 700px) {
+    #my-service-root {
+        display: block;
+    }
+    
+    #brand-image {
+        height: 15vh;
+    }
+
+    #content-wrapper {
+        height: 85vh;
+    }
+}
