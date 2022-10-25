@@ -1,0 +1,27 @@
+{
+  "name": "my-awesome-service",
+  "version": "1.0.0",
+  "description": "my awesome service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArifDewi/my-awesome-service.git"
+  },
+  "keywords": [
+    "service",
+    "app",
+    "awesome"
+  ],
+  "author": "Arif Dewi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArifDewi/my-awesome-service/issues"
+  },
+  "homepage": "https://github.com/ArifDewi/my-awesome-service#readme",
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
