@@ -4,4 +4,9 @@ Welcome fellas!
 
 We did that! Yay!
 
-* Auto deployment enabled.
+# Run locally
+
+```
+npm install
+./node_modules/.bin/serve
+```
